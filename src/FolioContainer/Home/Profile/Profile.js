@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
 import './Profile.css'
+import Form from './Contact Form/Form'
 
 export default function Profile() {
     return (
@@ -58,8 +59,13 @@ export default function Profile() {
                         </span>
                     </div>
                     <div className='profile-options'>
+                        <div className='dropdown'>
                         <button className='btn primary-btn'>{" "}
                             Hire Me!{" "}</button>
+                            <div className='dropdown-form'>
+                                <Form/>
+                                </div>
+                        </div>
                         <a href='resume.pdf' download='Hemant-Bawaskar-Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>

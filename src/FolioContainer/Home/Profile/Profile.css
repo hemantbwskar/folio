@@ -105,6 +105,28 @@ transform: scale(1.5);
 transition: ease-in;
 }
 
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+   /* Dropdown Content (Hidden by Default) */
+ .dropdown-form {
+    width: fit-content;
+    border-radius: 20px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ 
+
 @media screen and (max-width: 400px){
     .profile-picture{
         height: 320px;
