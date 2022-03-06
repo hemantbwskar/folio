@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/folio/static/css/main.36349b95.css",
-    "main.js": "/folio/static/js/main.ca3f68ff.js",
+    "main.css": "/folio/static/css/main.5c0965c7.css",
+    "main.js": "/folio/static/js/main.d109167d.js",
     "static/js/787.43d88a3b.chunk.js": "/folio/static/js/787.43d88a3b.chunk.js",
     "static/media/shape-bg.png": "/folio/static/media/shape-bg.d5fc6052bd95147284f1.png",
     "static/media/Poppins-Thin.ttf": "/folio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -13,12 +13,12 @@
     "static/media/Poppins-ExtraBold.ttf": "/folio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/profilephoto.jpeg": "/folio/static/media/profilephoto.798f884a8498f9428457.jpeg",
     "index.html": "/folio/index.html",
-    "main.36349b95.css.map": "/folio/static/css/main.36349b95.css.map",
-    "main.ca3f68ff.js.map": "/folio/static/js/main.ca3f68ff.js.map",
+    "main.5c0965c7.css.map": "/folio/static/css/main.5c0965c7.css.map",
+    "main.d109167d.js.map": "/folio/static/js/main.d109167d.js.map",
     "787.43d88a3b.chunk.js.map": "/folio/static/js/787.43d88a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36349b95.css",
-    "static/js/main.ca3f68ff.js"
+    "static/css/main.5c0965c7.css",
+    "static/js/main.d109167d.js"
   ]
 }
