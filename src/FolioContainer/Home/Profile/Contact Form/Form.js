@@ -32,7 +32,7 @@ export default function Form(){
         e.preventDefault();
         send(
           'service_ywpjjfo',
-          'template_eah0owg',
+          'template_tome',
           toSend,
           'ixgtgba1Qb3eRKMVl'
         )
@@ -40,12 +40,18 @@ export default function Form(){
             console.log('SUCCESS!', response.status, response.text);
             handleReset();
             toast.success('Successfully sent',
-            {position: toast.POSITION.TOP_LEFT})
+            {position: toast.POSITION.TOP_LEFT});
+            send(
+              'service_ywpjjfo',
+              'template_tocontacter',
+              toSend,
+              'ixgtgba1Qb3eRKMVl'
+            )
           })
           .catch((err) => {
             console.log('FAILED...', err);
             handleReset();
-            toast.error('failed to send',
+            toast.error('Failed to send',
             {position: toast.POSITION.TOP_LEFT})
           });
       };
@@ -77,7 +83,7 @@ export default function Form(){
                     required
                 />
                 <input
-                    type='text'
+                    type='email'
                     name='reply_to'
                     placeholder='Your email'
                     value={toSend.reply_to}
