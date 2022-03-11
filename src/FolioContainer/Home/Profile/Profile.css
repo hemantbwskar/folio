@@ -127,7 +127,7 @@ transition: ease-in;
 }
  
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
     .profile-picture{
         height: 320px;
         width: 320px;
