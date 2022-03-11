@@ -9,10 +9,10 @@ export default function Navbar() {
     return (
         <div className='navbar'>
             
-            <a className={splitLocation[1] === "" ? "active" : ""} href="/"><i className="fa fa-fw fa-home"></i> Home</a>
-            <a className={splitLocation[1] === "projectlist" ? "active" : ""} href="/projectlist"><i className="fa fa-fw fa-tasks"></i> Projects</a>
+            <a className={splitLocation[1] === "" ? "active" : ""} href="/folio"><i className="fa fa-fw fa-home"></i> Home</a>
+            <a className={splitLocation[1] === "projectlist" ? "active" : ""} href="/folio/projectlist"><i className="fa fa-fw fa-tasks"></i> Projects</a>
             <a href="https://github.com/hemantbwskar"><i className="fa fa-fw fa-github"></i> Git</a>
-            <a className={splitLocation[1] === "contact" ? "active" : ""} href="/contact"><i className="fa fa-fw fa-envelope"></i> Contact</a>
+            <a className={splitLocation[1] === "contact" ? "active" : ""} href="/folio/contact"><i className="fa fa-fw fa-envelope"></i> Contact</a>
         </div>
     )
 }

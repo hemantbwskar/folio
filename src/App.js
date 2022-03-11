@@ -14,8 +14,8 @@ function App() {
     
     <Routes>
                  <Route exact path='/folio' element={< Home />}></Route>
-                 <Route exact path='/projectlist' element={< ProjectList />}></Route>
-                 <Route exact path='/contact' element={< Contact />}></Route>
+                 <Route exact path='/folio/projectlist' element={< ProjectList />}></Route>
+                 <Route exact path='/folio/contact' element={< Contact />}></Route>
           </Routes>
     </div>
       </Router>
